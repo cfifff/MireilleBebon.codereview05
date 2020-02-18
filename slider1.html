@@ -1,0 +1,199 @@
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="css/products.css">
+  <link rel="stylesheet" type="text/css" href="css/slider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="json/product.json"></script>
+</head>
+<body>
+<header>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    
+  
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">LOGIN</a></li>
+      </ul>
+  </nav>
+</header>
+<section>
+
+<div class="slider-container">
+   <h1>Blue Lemon</h1>
+  <div class="slider-control left inactive"></div>
+    <div class="slider-control right"></div>
+      <ul class="slider-pagi"></ul>
+    <div class="slider">
+      <div class="slide slide-0 active">
+        <div class="slide__bg"></div>
+      <!--<div class="slide__content">
+        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+          <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+        </svg>
+        <div class="slide__text">
+          <h2 class="slide__text-heading">Project name 1</h2>
+          <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+          <a class="slide__text-link">Project link</a>
+        </div>
+      </div>-->
+    </div>
+    <div class="slide slide-1 ">
+      <div class="slide__bg"></div>
+       <!-- <div class="slide__content">
+        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+          <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+          </svg>
+          <div class="slide__text">
+            <h2 class="slide__text-heading">Project name 2</h2>
+            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+            <a class="slide__text-link">Project link</a>
+        </div>
+        </div>-->
+    </div>
+    <div class="slide slide-2">
+      <div class="slide__bg"></div>
+     <!-- <div class="slide__content">
+        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+          <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+        </svg>
+        <div class="slide__text">
+          <h2 class="slide__text-heading">Project name 3</h2>
+          <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+          <a class="slide__text-link">Project link</a>
+        </div>
+      </div>-->-->
+    </div>
+    <div class="slide slide-3">
+      <div class="slide__bg"></div>
+     <!-- <div class="slide__content">
+        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+          <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+        </svg>
+        <div class="slide__text">
+          <h2 class="slide__text-heading">Project name 4</h2>
+          <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+          <a class="slide__text-link">Project link</a>
+        </div>
+      </div>-->
+      </div>
+    </div>
+    <div class="slide slide-4">
+      <div class="slide__bg">
+        <!--<video autoplay="autoplay" loop="loop" volume="0" id="myvideo">
+          <source src="img/wonderwoman.mp4" type="video/mp4">
+          <source src="img/wonderwoman.webm" type="video/webm">
+          <source src="img/wonderwoman.ogv" type="video/ogg">
+          
+        </video>-->
+      </div>
+    </div>
+</div>
+</section>
+  <section class="container1">
+<!--<div class="col-6">-->
+<div class="filter-gallery">
+          <ul class="filter">
+          <li class="active"><button data-filter="all">All</button></li>
+          <li><button data-filter="Drama">Drama</button></li>
+          <li><button data-filter="Comedy">Comedy</button></li>
+          </ul>
+<ul class="gallery">  
+            
+    
+<!--<div class="col-xs-12 col-md-4">-->
+  <div class="main-info"> 
+    <div class="row" id="product">
+      <div id="like"></div>
+<!--first product--> 
+       <!-- <div class="col-md-6 col-sm-12 col-xs-12" > -->
+          <!-- <div class="product-image">
+                <li data-filter="Drama">
+                <a href="#" data-title="Orange" data-desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quod, perferendis totam cupiditate, animi reprehenderit molestias officia repellat distinctio minima magni nisi possimus ut dolores repudiandae provident libero deleniti omnis.">
+                    <img src="https://images.unsplash.com/photo-1465845075873-957c8326f63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=600&q=80" alt="Orange">
+                </a>
+                </li>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="details" id="product">
+            <h5 class="name">
+                <a href="#">
+                  Movie title
+                </a>
+                <a href="#">
+                  <span>Movie Spoiler</span>
+                </a>                            
+
+              </h5>
+            
+          </div>     
+        </div>
+       <div class="review">
+              <div class="row">
+                <div class="col-md-12"> 
+                 
+                    <div>
+                      <button class="start-button">Start</button>
+                    </div>
+                      <form id="like-form">
+                        <button class="like-button">0 Likes</button>
+                      </form>
+                    <div id="reset-div">
+                      <button id="reset-button">Reset</button>
+                    </div>
+                 </div>
+              </div>
+            </div>-->
+           
+
+  <!--<div class="modal fade" id="like" role="dialog">
+    <div class="modal-dialog">-->
+    
+      <!-- Modal content-->
+     <!-- <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>-->
+
+
+
+        </div> 
+   </div> 
+    <!-- Gallery single component -->
+          <div class="gallery-single">
+            <div class="gallery-single-inner">
+              <button id="btnClose">x</button>
+                <img src="" alt="Drama">
+                  <h2>name</h2>
+                    <p>Lorem ipsum</p>
+            </div>
+   </div>
+    <!--  -->
+
+    
+
+   </ul>   
+ </div>      
+
+
+</section>
+<script type="text/javascript" src="js/review5.js"></script>
+<script type="text/javascript" src="js/product1.js"></script>
+</body>
+</html>
